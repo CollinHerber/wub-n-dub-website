@@ -1,0 +1,786 @@
+@use '@material/button';
+@use '@material/linear-progress';
+@use '@material/textfield';
+@use '@material/select';
+@use '@material/checkbox';
+@use '@material/textfield/icon';
+@use '@material/radio';
+@use '@material/slider';
+@use '@material/tooltip';
+@use '@material/dialog';
+@use '@material/dialog/mdc-dialog';
+@import 'variables';
+
+$offwhite: rgba(255, 255, 255, 0.6);
+$offgreen: rgba(57, 226, 157, 0.7);
+$offred: rgba(253, 74, 74, 0.75);
+$offgreen-disabled: rgba(57, 226, 157, 0.2);
+$offred-disabled: rgba(253, 74, 74, 0.2);
+$hoverblue: rgba(74, 83, 181, 1);
+$lightgray: rgba(76, 96, 133, 0.2);
+
+body {
+  --mdc-theme-primary: rgba(87, 98, 213, 1);
+  --mdc-theme-secondary: rgba(76, 96, 133, 1);
+  --mdc-theme-on-primary: $primarycolor;
+  --mdc-typography-font-family: $primaryfont;
+  --mdc-background-primary: rgba(0, 0, 0, 0);
+}
+
+.mdc-select {
+  .mdc-menu-surface {
+    margin-top: 1px;
+  }
+}
+
+.mdc-menu-surface {
+  overflow: hidden;
+}
+
+:not(.mdc-list-item--disabled).mdc-list-item--selected .mdc-list-item__ripple:before {
+  background-color: unset;
+}
+
+.mdc-list {
+  padding: 0;
+}
+
+.mdc-list-item__primary-text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  letter-spacing: .68px;
+}
+
+.mdc-list-item--selected .mdc-list-item__primary-text {
+  color: rgba(255, 255, 255, 1);
+}
+
+.mdc-text-field--filled {
+  height: 50px;
+}
+
+.mdc-select__anchor {
+  border-radius: 4px;
+}
+
+.mdc-select--outlined .mdc-select__anchor {
+  height: 50px;
+}
+
+.mdc-select--filled .mdc-select__anchor {
+  height: 50px;
+}
+
+.mdc-text-field--outlined:not(.mdc-text-field--textarea) {
+  height: 50px;
+}
+
+.mdc-select .mdc-floating-label {
+  top: 55%;
+}
+
+.mdc-button {
+  text-transform: unset;
+}
+
+.mdc-select--filled .mdc-select__anchor {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.mdc-text-field__affix--suffix {
+  padding-right: 12px;
+  color: $white !important;
+}
+
+.mdc-select--outlined.mdc-select--disabled .mdc-notched-outline__notch,
+.mdc-select--outlined.mdc-select--disabled .mdc-notched-outline__trailing {
+  border: 0;
+}
+
+.button-mobile {
+  @include button.filled-accessible($blue);
+  @include button.ink-color($white);
+  @include button.disabled-container-fill-color($blue);
+  @include button.disabled-ink-color($white);
+}
+
+.button-mobile:hover {
+  @include button.filled-accessible($hoverblue);
+}
+
+.button-mobile:disabled {
+  opacity: 0.2;
+}
+
+.button-blue-filled {
+  @include button.filled-accessible($blue);
+  @include button.ink-color($white);
+  @include button.disabled-container-fill-color($blue);
+  @include button.disabled-ink-color($white);
+  appearance: none;
+  letter-spacing: 0.15px;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+.button-blue-filled:hover {
+  @include button.filled-accessible($hoverblue);
+}
+
+.button-blue-filled:disabled {
+  opacity: 0.2;
+}
+
+.button-blue-transparent-no-border {
+  @include button.filled-accessible($transparent);
+  @include button.ink-color($hoverblue);
+  @include button.outline-width(0);
+  @include button.outline-color($transparent);
+  appearance: none;
+  letter-spacing: 0.15px;
+  text-align: center;
+  -webkit-appearance: none;
+}
+
+.button-green-filled {
+  @include button.filled-accessible($green);
+  @include button.ink-color($primarybackground);
+  letter-spacing: 0.15px;
+  text-align: center;
+}
+
+.button-green-filled:hover {
+  @include button.filled-accessible($green);
+}
+
+.button-gray-filled {
+  @include button.filled-accessible(rgba(250, 252, 255, 0.02));
+  @include button.ink-color($white);
+  letter-spacing: 0.15px;
+  text-align: center;
+}
+
+.button-gray-filled:hover {
+  @include button.filled-accessible(rgba(250, 252, 255, 0.1));
+  @include button.ink-color($white);
+}
+
+.button-transparent {
+  @include button.filled-accessible($transparent);
+  @include button.ink-color(rgba(255, 255, 255, 0.5));
+  @include button.outline-width(1px);
+  letter-spacing: 0.15px;
+  text-align: center;
+}
+
+.button-transparent:hover {
+  @include button.ink-color($white);
+}
+
+.button-transparent-outlined {
+  @include button.ink-color(rgba(255, 255, 255, 0.5));
+  @include button.outline-width(1px);
+  border-style: solid;
+  border-width: 2px;
+  letter-spacing: 0.15px;
+  text-align: center;
+}
+
+.button-transparent-outlined:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.button-white-transparent {
+  @include button.filled-accessible($transparent);
+  @include button.outline-color($offwhite);
+  @include button.outline-width(1px);
+  @include button.ink-color($offwhite);
+  letter-spacing: 0.15px;
+  text-align: center;
+}
+
+.button-white-transparent:hover {
+  @include button.outline-color($white);
+  @include button.ink-color($white);
+}
+
+.button-green-transparent {
+  @include button.filled-accessible($transparent);
+  @include button.outline-color($offgreen);
+  @include button.outline-width(1px);
+  @include button.ink-color($offgreen);
+  @include button.container-fill-color(('disabled': $transparent));
+  @include button.disabled-ink-color($offgreen-disabled);
+  @include button.disabled-outline-color($offgreen-disabled);
+  letter-spacing: 0.15px;
+  text-align: center;
+}
+
+.button-green-transparent:hover {
+  @include button.outline-color($green);
+  @include button.ink-color($green);
+}
+
+.button-red-transparent {
+  @include button.filled-accessible($transparent);
+  @include button.outline-color($offred);
+  @include button.outline-width(1px);
+  @include button.ink-color($offred);
+  @include button.container-fill-color(('disabled': $transparent));
+  @include button.disabled-ink-color($offred-disabled);
+  @include button.disabled-outline-color($offred-disabled);
+  letter-spacing: 0.15px;
+  text-align: center;
+
+  .mdc-button__ripple:after,
+  .mdc-button__ripple:before {
+    background-color: transparent;
+  }
+}
+
+.button-red-transparent:hover {
+  @include button.outline-color($red);
+  @include button.ink-color($red);
+}
+
+.button-blue-transparent {
+  @include button.filled-accessible($transparent);
+  @include button.outline-color($blue);
+  @include button.outline-width(1px);
+  @include button.ink-color($blue);
+  letter-spacing: 0.15px;
+  text-align: center;
+}
+
+.input-default {
+  @include textfield.fill-color($transparent);
+  @include textfield.outline-color($primaryborder);
+  @include textfield.focused-outline-color($primaryborder);
+  @include textfield.hover-outline-color($primaryborder);
+  @include textfield.ink-color($white);
+  @include textfield.label-color($white);
+  @include textfield.disabled-ink-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-label-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-prefix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-suffix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-outline-color(rgba(255, 255, 255, 0.55));
+  @include textfield.disabled-bottom-line-color(transparent);
+  @include textfield.placeholder-color(rgba(255, 255, 255, 0.3));
+  @include textfield.caret-color(rgba(255, 255, 255, 0.3));
+  border: 0.5px;
+  border-radius: 4px;
+}
+
+.input-whole-transparent {
+  @include textfield.fill-color($transparent);
+  @include textfield.outline-color($transparent);
+  @include textfield.focused-outline-color($transparent);
+  @include textfield.hover-outline-color($transparent);
+  @include textfield.ink-color($white);
+  @include textfield.label-color($white);
+  @include textfield.disabled-ink-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-label-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-prefix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-suffix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-outline-color($transparent);
+  @include textfield.disabled-bottom-line-color(transparent);
+  @include textfield.placeholder-color(rgba(255, 255, 255, 0.3));
+  @include textfield.caret-color(rgba(255, 255, 255, 0.3));
+}
+
+.input-password {
+  @include textfield.fill-color($lightgray);
+  @include textfield.ink-color($white);
+  @include textfield.outline-color($transparent);
+  @include textfield.focused-outline-color($transparent);
+  @include textfield.hover-outline-color($transparent);
+  @include icon.trailing-icon-color($lightgray);
+  @include textfield.label-color($white);
+  @include textfield.disabled-ink-color(rgba(114, 118, 125, 0.75));
+  @include textfield.disabled-fill-color(rgba(76, 96, 133, 0.2));
+  @include textfield.disabled-label-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-prefix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-suffix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-outline-color($transparent);
+  @include textfield.disabled-bottom-line-color(transparent);
+  @include textfield.placeholder-color(rgba(255, 255, 255, 0.3));
+  @include textfield.prefix-color($white);
+  @include textfield.suffix-color($white);
+  @include textfield.caret-color(rgba(255, 255, 255, 0.3));
+  border: 0.5px;
+  border-radius: 4px;
+}
+
+.input-background {
+  @include textfield.disabled-fill-color(rgba(76, 96, 133, 0.1));
+  @include textfield.fill-color($lightgray);
+  @include textfield.outline-color($lightgray);
+  @include textfield.focused-outline-color(rgba(255, 255, 255, 0.6));
+  @include textfield.hover-outline-color(rgba(255, 255, 255, 0.6));
+  @include textfield.ink-color($white);
+  @include textfield.label-color($white);
+  @include textfield.placeholder-color(rgba(255, 255, 255, 0.75));
+  @include textfield.disabled-ink-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-label-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-prefix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-suffix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-outline-color(rgba(255, 255, 255, 0.55));
+  @include textfield.disabled-bottom-line-color(transparent);
+  @include textfield.bottom-line-color(transparent);
+  @include textfield.line-ripple-color(transparent);
+  @include textfield.hover-bottom-line-color(transparent);
+  @include textfield.disabled-placeholder-color(rgba(255, 255, 255, 0.3));
+  @include textfield.suffix-color($white);
+  @include textfield.caret-color(rgba(255, 255, 255, 0.3));
+  border-radius: 4px;
+}
+
+.input-pagination {
+  @include textfield.outline-color($transparent);
+  @include textfield.focused-outline-color($primaryborder);
+  @include textfield.hover-outline-color($primarybackground);
+  @include textfield.density(-4);
+  @include textfield.ink-color($white);
+  @include textfield.placeholder-color($white);
+  @include textfield.label-color($white);
+  border-radius: 4px;
+  height: 35px;
+  width: 45px;
+
+  .mdc-text-field__input:focus::placeholder {
+    color: transparent !important;
+  }
+}
+
+.search-bar {
+  @include textfield.bottom-line-color(transparent);
+  @include textfield.hover-bottom-line-color(transparent);
+  @include textfield.line-ripple-color(transparent);
+  @include textfield.fill-color($lightgray);
+  @include textfield.outline-color($lightgray);
+  @include textfield.focused-outline-color(rgba(255, 255, 255, 0.6));
+  @include textfield.hover-outline-color(rgba(255, 255, 255, 0.6));
+  @include textfield.ink-color($white);
+  @include textfield.label-color(rgba(255, 255, 255, 0.6));
+  @include textfield.disabled-ink-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-label-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-prefix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-suffix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-outline-color(rgba(255, 255, 255, 0.55));
+  @include textfield.placeholder-color(rgba(255, 255, 255, 0.3));
+  border: 0.5px;
+  border-radius: 4px;
+
+  .mdc-text-field__ripple:after,
+  .mdc-text-field__ripple:before {
+    background-color: unset;
+  }
+}
+
+.search-bar:hover {
+  @include textfield.fill-color(rgba(76, 96, 133, .3));
+}
+
+.input-black {
+  @include textfield.fill-color($transparent);
+  @include textfield.outline-color(rgba(250, 252, 255, 0.5));
+  @include textfield.focused-outline-color(rgba(250, 252, 255, 0.5));
+  @include textfield.hover-outline-color(rgba(250, 252, 255, 0.5));
+  @include textfield.ink-color($white);
+  @include textfield.label-color($white);
+  @include textfield.disabled-ink-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-label-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-prefix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-suffix-color(rgba(255, 255, 255, 0.35));
+  @include textfield.disabled-outline-color(rgba(255, 255, 255, 0.35));
+  @include textfield.placeholder-color(rgba(255, 255, 255, 0.3));
+  border: 0.5px;
+}
+
+.checkbox {
+  @include checkbox.container-colors($unmarked-stroke-color: $transparent,
+  $unmarked-fill-color: $lightgray,
+  $marked-stroke-color: $transparent,
+  $marked-fill-color: rgba(57, 226, 157, 0.05),
+  $generate-keyframes: false);
+  @include checkbox.disabled-container-colors($unmarked-fill-color: rgba(39, 44, 57, 1));
+  @include checkbox.ink-color($green);
+  @include checkbox.focus-indicator-color($transparent);
+  @include checkbox.disabled-ink-color(rgba(43, 79, 76, 1));
+
+  &:hover {
+    .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate):not([data-indeterminate=true])~.mdc-checkbox__background {
+      background-color: rgba(76, 96, 133, 0.4);
+    }
+  }
+
+  .mdc-checkbox__native-control:enabled:checked~.mdc-checkbox__background {
+    border-color: $transparent;
+    background-color: rgba(57, 226, 157, 0.05);
+  }
+
+  .mdc-checkbox--anim-unchecked-checked .mdc-checkbox__background,
+  .mdc-checkbox--anim-checked-unchecked .mdc-checkbox__background,
+  .mdc-checkbox__native-control:enabled:checked~.mdc-checkbox__background,
+  .mdc-checkbox__native-control:enabled:not(:checked)~.mdc-checkbox__background {
+    animation-duration: unset;
+    animation-timing-function: unset;
+  }
+
+  .mdc-checkbox__ripple:after,
+  .mdc-checkbox__ripple:before {
+    background-color: unset;
+  }
+}
+
+.select-default {
+  --mdc-theme-surface: rgba(48, 49, 65, 1);
+  --mdc-theme-on-surface: $white;
+  $outline: (default: rgba(255, 255, 255, 0.5), hover: rgba(255, 255, 255, 0.6), focus: rgba(255, 255, 255, 0.6));
+  $label: (default: $white, hover: $white, focus: $white);
+  @include select.container-fill-color(rgba(48, 49, 65, 1));
+  @include select.label-color($label);
+  @include select.ink-color($white);
+  @include select.dropdown-icon-color($white);
+  @include select.icon-color($green);
+  @include select.outline-color($outline);
+}
+
+.select-blue-filled {
+  --mdc-theme-surface: rgb(84, 101, 133);
+  --mdc-theme-on-surface: $white;
+  @include select.container-fill-color(('default': rgb(84, 101, 133), 'disabled': $primaryborder));
+  @include select.label-color(('default': $white, 'hover': $white, 'focus': $white));
+  @include select.ink-color(('default': $white, 'disabled': $white));
+  @include select.dropdown-icon-color(('default': $white, 'hover': $white, 'focus': $white));
+  @include select.label-floating-color(rgba(0, 0, 0, 0));
+  @include select.outline-color((
+          'default': $transparent,
+          'hover': $transparent,
+          'focus': $transparent));
+
+  .mdc-ripple-surface:hover::before,
+  .mdc-ripple-surface:hover .mdc-list-item__ripple::before {
+    background: $blue;
+    opacity: 0.1;
+  }
+
+  .mdc-ripple-upgraded.mdc-ripple-upgraded--background-focused::before {
+    background: $blue;
+    opacity: 0.2;
+  }
+}
+
+.select-blue-filled:hover {
+  @include select.container-fill-color(rgb(78, 93, 121));
+}
+
+.select-background-outlined {
+  --mdc-theme-surface: rgb(48, 49, 65);
+  --mdc-theme-on-surface: $white;
+  --mdc-theme-primary: rgb(76, 96, 133);
+  @include select.container-fill-color($lightgray);
+  @include select.label-color((
+          'default': $white,
+          'hover': $white,
+          'focus': $white));
+  @include select.ink-color($white);
+  @include select.dropdown-icon-color(('default': $white, 'hover': $white, 'focus': $white));
+  @include select.outline-color((
+          'default': $transparent,
+          'hover': $transparent,
+          'focus': $transparent));
+
+  .mdc-select--disabled {
+    background-color: rgba(76, 96, 133, .2);
+    @include select.ink-color((disabled: $white));
+  }
+
+  .mdc-ripple-surface:hover::before,
+  .mdc-ripple-surface:hover .mdc-list-item__ripple::before {
+    background: $blue;
+    opacity: 0.1;
+  }
+
+  .mdc-ripple-upgraded.mdc-ripple-upgraded--background-focused::before {
+    background: $blue;
+    opacity: 0.2;
+  }
+
+  .mdc-menu-surface::-webkit-scrollbar-thumb {
+    background-color: $blue;
+  }
+}
+
+.select-background-outlined:hover {
+  @include select.container-fill-color(rgba(76, 96, 133, .3));
+}
+
+.mdc-select--disabled {
+  border-radius: 4px;
+}
+
+.mdc-list-item__text,
+.mdc-select__selected-text {
+  font-size: 14px;
+  letter-spacing: 0.68px;
+}
+
+.select-background-filled {
+  --mdc-theme-surface: rgb(48, 49, 65);
+  --mdc-theme-on-surface: $white;
+  --mdc-theme-primary: rgb(76, 96, 133);
+  @include select.container-fill-color(('default': $lightgray, 'disabled': rgba(0, 0, 0, 0.1)));
+  @include select.label-color(('default': $gray, 'hover': $gray, 'focus': $gray, 'disabled': rgba(255, 255, 255, 0.75)));
+  @include select.ink-color(('default': $white, 'disabled': $white));
+  @include select.dropdown-icon-color(('default': $white, 'hover': $white, 'focus': $white, 'disabled': $white));
+  @include select.bottom-line-color(('default': $transparent, 'hover': $transparent, 'focus': $transparent, 'disabled': $transparent));
+  font-size: $regular;
+
+  .mdc-select--disabled {
+    background-color: rgba(76, 96, 133, .2);
+    @include select.ink-color((disabled: $white));
+  }
+
+  .mdc-select__anchor .mdc-select__ripple:before {
+    background-color: unset;
+  }
+
+  .mdc-ripple-surface:hover::before,
+  .mdc-ripple-surface:hover .mdc-list-item__ripple::before {
+    background: $blue;
+    opacity: 0.1;
+  }
+
+  .mdc-ripple-upgraded.mdc-ripple-upgraded--background-focused::before {
+    background: $blue;
+    opacity: 0.2;
+  }
+
+  .mdc-menu-surface::-webkit-scrollbar-thumb {
+    background-color: $blue;
+  }
+}
+
+.select-background-filled:hover {
+  @include select.container-fill-color(rgba(76, 96, 133, .3));
+}
+
+.select-background-filled-white {
+  --mdc-theme-surface: rgb(48, 49, 65);
+  --mdc-theme-on-surface: $white;
+  --mdc-theme-primary: rgb(76, 96, 133);
+  @include select.container-fill-color(('default': $transparent, 'disabled': rgba(0, 0, 0, 0.1)));
+  @include select.label-color(('default': $gray, 'hover': $gray, 'focus': $gray));
+  @include select.ink-color($white);
+  @include select.dropdown-icon-color(('default': $white, 'hover': $white, 'focus': $white));
+  @include select.bottom-line-color(('default': $transparent, 'hover': $transparent, 'focus': $transparent, 'disabled': $transparent));
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-size: $regular;
+
+  .mdc-ripple-surface:hover::before,
+  .mdc-ripple-surface:hover .mdc-list-item__ripple::before {
+    background: $blue;
+    opacity: 0.1;
+  }
+
+  .mdc-ripple-upgraded.mdc-ripple-upgraded--background-focused::before {
+    background: $blue;
+    opacity: 0.2;
+  }
+
+  .mdc-menu-surface::-webkit-scrollbar-thumb {
+    background-color: $blue;
+  }
+}
+
+.select-background-outlined-white {
+  --mdc-theme-surface: rgb(48, 49, 65);
+  --mdc-theme-on-surface: $white;
+  @include select.container-fill-color($secondarybackground);
+  @include select.label-color((
+          'default': $white,
+          'hover': $white,
+          'focus': $white));
+  @include select.ink-color($white);
+  @include select.dropdown-icon-color($white);
+  @include select.outline-color((
+          'default': rgba(255, 255, 255, 0.4),
+          'hover': rgb(76, 96, 133),
+          'focus': rgb(76, 96, 133)));
+}
+
+.select-background-transparent {
+  --mdc-theme-surface: rgb(84, 101, 133);
+  --mdc-theme-on-surface: $white;
+  @include select.container-fill-color(rgba(0, 0, 0, 0));
+  @include select.label-color((
+          'default': $white,
+          'focus': $white));
+  @include select.ink-color($white);
+  @include select.dropdown-icon-color(('default': $white, 'hover': $white, 'focus': $white));
+  @include select.outline-color((
+          'default': rgb(76, 96, 133),
+          'hover': rgba(76, 96, 133, 0.7),
+          'focus': rgba(76, 96, 133, 0.7)));
+
+  ::-webkit-scrollbar-thumb {
+    background-color: $gray;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(168, 187, 191, 1);
+  }
+}
+
+.select-label-style {
+  --mdc-theme-surface: rgb(55, 56, 75);
+  --mdc-theme-on-surface: $white;
+  $transparent: rgba(0, 0, 0, 0);
+  @include select.dropdown-icon-color(('default': $white, 'hover': $white, 'focus': $white, 'disabled': rgba(255, 255, 255, 0.25)));
+  @include select.ink-color(('default': $white, 'hover': $white, 'focus': $white, 'disabled': rgba(255, 255, 255, 0.25)));
+  @include select.container-fill-color($transparent);
+  @include select.label-color((
+          'default': $white,
+          'focus': $white,
+          'disabled': rgba(255, 255, 255, 0.25)));
+  @include select.label-floating-color((
+          'default': $transparent,
+          'focus': $transparent));
+  @include select.outline-color((
+          'default': $transparent,
+          'hover': $transparent,
+          'focus': $transparent));
+  @include select.outlined-height(29px);
+
+  .mdc-menu-surface {
+    border: 0;
+
+    mdc-list mdc-list-item .mdc-list-item__text {
+      color: $white !important;
+    }
+  }
+
+  .mdc-select__anchor {
+    padding-left: 0 !important;
+  }
+
+  mdc-notched-outline {
+    .mdc-notched-outline__leading {
+      display: none;
+    }
+
+    .mdc-notched-outline__notch > mdc-floating-label {
+      left: 0;
+    }
+  }
+
+  .mdc-ripple-surface:hover::before,
+  .mdc-ripple-surface:hover .mdc-list-item__ripple::before {
+    background: $blue;
+    opacity: 0.1;
+  }
+
+  .mdc-ripple-upgraded.mdc-ripple-upgraded--background-focused::before {
+    background: $blue;
+    opacity: 0.2;
+  }
+}
+
+.radio {
+  @include radio.ink-color($transparent);
+  @include radio.unchecked-stroke-color($transparent);
+  @include radio.checked-stroke-color($transparent);
+
+  .mdc-radio__background {
+    background-color: rgba(76, 96, 133, .3);
+    border-radius: 4px;
+  }
+
+  .mdc-radio__inner-circle,
+  .mdc-radio__outer-circle {
+    border-radius: 20%;
+  }
+
+  .mdc-radio__native-control:checked+.mdc-radio__background {
+    background-color: rgba(57, 226, 157, 0.05);
+  }
+
+  .mdc-radio__native-control:enabled+.mdc-radio__background .mdc-radio__inner-circle {
+    border-width: unset;
+    background-color: rgba(57, 226, 157, 0.85);
+  }
+
+  .mdc-radio__ripple:after,
+  .mdc-radio__ripple:before {
+    background-color: unset;
+  }
+}
+
+.slider-default {
+  @include slider.track-active-color($blue);
+  @include slider.thumb-color($blue);
+  @include slider.thumb-ripple-color($blue);
+  margin: 0 15px;
+
+  .mdc-slider__thumb-knob {
+    border: 7px solid $blue;
+    height: 14px;
+    width: 14px;
+  }
+}
+
+.mdc-tooltip.mdc-tooltip--shown::after {
+  opacity: 1;
+}
+
+.mdc-tooltip {
+  @include tooltip.fill-color($primaryborder);
+  @include tooltip.label-ink-color($white);
+  border-radius: 4px;
+  box-shadow: 0 10px 10px 0 rgba($secondarybackground, 0.47);
+}
+
+.mdc-tooltip::after {
+  border-color: transparent transparent $primaryborder;
+  border-style: solid;
+  border-width: 5px;
+  bottom: 100%;
+  content: ' ';
+  left: 50%;
+  margin-left: -5px;
+  position: absolute;
+  opacity: 0;
+}
+
+.mdc-select .mdc-floating-label {
+  font-size: 12px !important;
+}
+
+.linear-progress-file {
+  @include linear-progress.bar-color($green);
+}
+
+.mdc-dialog {
+  @include dialog.container-fill-color($primarybackground);
+  @include dialog.title-ink-color($white);
+  @include dialog.content-ink-color($white);
+  @include dialog.shape-radius(4, false);
+
+  .mdc-dialog__title {
+    font-size: $extralarge;
+    padding: 0 18px 9px;
+    text-align: left;
+  }
+
+  .mdc-dialog__content {
+    text-align: left;
+  }
+
+  .mdc-button .mdc-button__ripple:before,
+  .mdc-button .mdc-button__ripple:after {
+    background-color: unset;
+  }
+}

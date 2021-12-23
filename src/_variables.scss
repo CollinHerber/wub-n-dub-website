@@ -1,0 +1,54 @@
+$primaryfont: 'Roboto', sans-serif;
+$secondaryfont: 'Playfair Display', serif;
+
+$extrasmall: 10px;
+$small: 12px;
+$smallplus: 13px;
+$regular: 14px;
+$regularplus: 15px;
+$medium: 16px;
+$large: 18px;
+$largeplus: 20px;
+$extralarge: 24px;
+$extralargeplus: 25px;
+$huge: 32px;
+$extrahuge: 38px;
+$extrahugeplus: 40px;
+$extraextrahuge: 50px;
+$giant: 100px;
+$extragiant: 150px;
+
+$yellow: rgba(254, 215, 102, 1);
+$slategrey: rgba(84, 101, 133, 1);
+$slateblue: rgba(132, 155, 198, 1);
+$blue: rgba(87, 98, 213, 1);
+$green: rgba(57, 226, 157, 1);
+$red: rgba(253, 74, 74, 1);
+$white: rgba(255, 255, 255, 1);
+$shadow: rgba(44, 45, 51, 0.8);
+$gray: rgba(255, 255, 255, 0.75);
+$mediumgray: rgba(255, 255, 255, 0.5);
+$darkgray: rgba(255, 255, 255, 0.3);
+$transparent: rgba(0, 0, 0, 0);
+
+$dropdownprimarybackground: rgb(43, 44, 60);
+$dropdownsecondarybackground: rgb(60, 61, 77);
+$dropdownhighlight: $yellow;
+$dropdownunhighlight: rgb(150, 151, 156);
+
+$primarybackground: rgba(55, 56, 75, 1);
+$secondarybackground: rgba(48, 49, 65, 1);
+$tertiarybackground: rgba(60, 61, 77, 1);
+$hoverbackground: rgba(59, 67, 92, 1);
+
+$primarycolor: rgba($white, 1);
+$primaryborder: rgba(76, 96, 133, 1);
+
+$phone: 576px;
+$tablet: 768px;
+$desktop: 992px;
+$widescreen: 1200px;
+
+@mixin background-properties() {
+  background: transparent linear-gradient(90deg, rgba(17, 22, 52, 1) 0%, rgba(18, 28, 74, 1) 49%, rgba(17, 22, 52, 1) 100%) 0 0 no-repeat padding-box; /* w3c */
+}
