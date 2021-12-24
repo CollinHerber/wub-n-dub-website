@@ -1,0 +1,15 @@
+@import '../../variables';
+#home {
+  .flier {
+    max-height: 700px;
+  }
+
+  .banner {
+    color: $primarycolor;
+    background: $blue;
+  }
+
+  .outside-picture {
+    max-height: 400px;
+  }
+}

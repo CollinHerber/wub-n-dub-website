@@ -8,10 +8,15 @@
 
 @import 'md-overrides';
 @import 'nav-effects';
+@import 'variables';
 
 a {
     color: unset !important;
     text-decoration: none !important;
+}
+
+button {
+    color: white !important;
 }
 
 .navbar {
@@ -19,12 +24,27 @@ a {
 }
 
 body {
-    padding: 0 !important;
+    font-family: $primaryfont;
+    min-height: 1200px;
     background-color: #4fabab !important;
     color: black !important;
-    font-size: 14px !important;
+    font-size: $regular !important;
 }
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.secondary-font {
+    font-family: $secondaryfont;
+}
+
+.fs-7 {
+    letter-spacing: 1.15px;
+    font-size: $huge;
+}
+
+.fs-8 {
+    letter-spacing: 1.25px;
+    font-size: $extrahuge;
 }
