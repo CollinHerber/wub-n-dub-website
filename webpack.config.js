@@ -64,12 +64,15 @@ module.exports = function (env, {analyze}) {
                         "css-loader",
                         // Compiles Sass to CSS
                         {
-                            loader: "sass-loader",
+                            loader: 'sass-loader',
                             options: {
-                                // Prefer `dart-sass`
-                                implementation: require("sass"),
-                            },
+                                implementation: require('sass'),
+                                sassOptions: {
+                                    includePaths: [path.resolve('./node_modules')]
+                                }
+                            }
                         },
+
                     ],
                 },
             ]
