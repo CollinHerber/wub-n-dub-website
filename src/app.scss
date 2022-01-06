@@ -19,14 +19,9 @@ button {
     color: white !important;
 }
 
-.navbar {
-    color: white !important;
-}
-
 body {
     font-family: $primaryfont;
     min-height: 1200px;
-    background-color: #4fabab !important;
     color: black !important;
     font-size: $regular !important;
 }
@@ -47,4 +42,12 @@ body {
 .fs-8 {
     letter-spacing: 1.25px;
     font-size: $extrahuge;
+}
+
+.header {
+    min-height: 1000px;
+    background-image: url('http://via.placeholder.com/1980x1000');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
 }

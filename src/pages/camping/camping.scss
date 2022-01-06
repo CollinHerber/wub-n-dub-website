@@ -1,3 +1,13 @@
-.outside-picture {
-  max-height: 400px;
+#camping {
+  .header {
+    min-height: 1000px;
+    background-image: url('http://via.placeholder.com/1980x1000');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+  }
+
+  .outside-picture {
+    max-height: 400px;
+  }
 }
