@@ -1,7 +1,16 @@
 @import '../../variables';
 #home {
-  .flier {
-    max-height: 700px;
+  .header {
+    padding-top: 250px;
+    background-image: url('/static/beach.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 110vw auto;
+  }
+
+  .outside-picture {
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .news-article {
