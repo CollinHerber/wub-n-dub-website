@@ -14,3 +14,25 @@
   height: 250px;
   width: 250px;
 }
+
+@media (max-width: 1200px) {
+  .logo {
+    height: 200px !important;
+    width: 200px !important;
+  }
+
+  .nav-banner {
+    top: 80px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    height: 150px !important;
+    width: 150px !important;
+  }
+
+  .nav-banner {
+    top: 59px !important;
+  }
+}
