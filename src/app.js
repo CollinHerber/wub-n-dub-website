@@ -22,11 +22,11 @@ import { route } from '@aurelia/router';
       component: import('./pages/lineup/lineup'),
       title: 'Lineup',
     },
-    // {
-    //   path: 'info',
-    //   component: import('./pages/info/info'),
-    //   title: 'Info',
-    // }
+    {
+      path: 'info',
+      component: import('./pages/info/info'),
+      title: 'Info',
+    }
 ]})
 
 export class App {

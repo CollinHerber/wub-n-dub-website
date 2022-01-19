@@ -1,9 +1,16 @@
 #lineup {
   .header {
-    padding-top: 250px;
+    padding-top: 150px;
     background-image: url('/static/beach-2-min.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: 110vw auto;
+  }
+
+  .flier {
+    height: 700px;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
   }
 }
