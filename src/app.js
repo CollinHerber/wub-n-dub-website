@@ -26,6 +26,11 @@ import { route } from '@aurelia/router';
       path: 'info',
       component: import('./pages/info/info'),
       title: 'Info',
+    },
+    {
+      path: 'join',
+      component: import('./pages/join/join'),
+      title: 'Join',
     }
 ]})
 
