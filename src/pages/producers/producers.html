@@ -1,0 +1,23 @@
+<section id="producers">
+    <div class="header text-center mb-5">
+        <h2>Meet the Producers</h2>
+    </div>
+
+    <div class="container">
+        <div class="row g-5">
+            <div class="col-12 col-md-6 text-center" repeat.for="producer of producers">
+                <h4>
+                    ${producer.name} (${producer.location})
+                </h4>
+                <div class="description mb-2" if.bind="producer.description">
+                    ${producer.description}
+                </div>
+                <div class="link mb-2" repeat.for="link of producer.links">
+                    <a href.bind="link.url" class="blue">
+                        ${link.name}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
