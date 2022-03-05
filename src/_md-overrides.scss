@@ -17,6 +17,12 @@ body {
   --mdc-theme-on-primary: $primarycolor;
   --mdc-typography-font-family: $primaryfont;
   --mdc-background-primary: rgba(0, 0, 0, 0);
+  --mdc-theme-surface: rgba(76, 96, 133, 1);
+  --mdc-theme-text-primary-on-background: white;
+}
+
+.mdc-tab .mdc-tab__text-label {
+  color: white !important;
 }
 
 .mdc-select {

@@ -36,6 +36,11 @@ import { route } from '@aurelia/router';
       path: 'producers',
       component: import('./pages/producers/producers'),
       title: 'Producers',
+    },
+    {
+      path: 'what-to-expect',
+      component: import('./pages/what-to-expect/what-to-expect'),
+      title: 'What to Expect',
     }
 ]})
 

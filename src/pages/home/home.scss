@@ -1,8 +1,12 @@
 @import '../../variables';
 #home {
+  .youtube-video-iframe {
+    max-width: 100%;
+  }
+
   .header {
     padding-top: 150px;
-    background-image: url('/static/beach-min.jpg');
+    background-image: url('/static/home-background.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: 110vw auto;

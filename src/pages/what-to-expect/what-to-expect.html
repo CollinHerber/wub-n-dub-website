@@ -1,0 +1,19 @@
+<section id="what-to-expect">
+    <div class="container">
+        <mdc-tab-bar focus-on-activate.bind="false" class="mb-5">
+            <mdc-tab repeat.for="tab of tabs" label.bind="tab" click.delegate="selectTab(tab)"></mdc-tab>
+        </mdc-tab-bar>
+
+        <div class="tab-area mt-5">
+            <div if.bind="selectedTab === 'Workshops'">
+                Stuff about Workshops
+            </div>
+            <div if.bind="selectedTab === 'Crafts'">
+                Stuff about Crafts
+            </div>
+            <div if.bind="selectedTab === 'Partners'">
+                Stuff about Partners
+            </div>
+        </div>
+    </div>
+</section>
