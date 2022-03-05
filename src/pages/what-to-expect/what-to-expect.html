@@ -1,18 +1,67 @@
 <section id="what-to-expect">
     <div class="container">
         <mdc-tab-bar focus-on-activate.bind="false" class="mb-5">
-            <mdc-tab repeat.for="tab of tabs" label.bind="tab" click.delegate="selectTab(tab)"></mdc-tab>
+            <mdc-tab repeat.for="tab of tabs" label.bind="tab" click.delegate="selectTab(tab)" active.one-time="$index === 0"></mdc-tab>
         </mdc-tab-bar>
 
-        <div class="tab-area mt-5">
+        <div class="tab-area my-5">
             <div if.bind="selectedTab === 'Workshops'">
-                Stuff about Workshops
+                <h3>Flow Workshops</h3>
+                <p>
+                    Start your day with yoga at the second stage to get your mind and body right after a long night of partying! Then spend some time leveling up your flow with hoop workshops taught by both local community members and talent from across the country.
+                </p>
+
+                <div class="row text-center">
+                    <div class="col-12 col-lg-4">
+                        <img src="/flow-1.jpg">
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="/flow-2.jpg">
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <img src="/flow-3.jpg">
+                    </div>
+                </div>
+
+                <h3 class="mt-5">KenLive Kendama Workshop</h3>
+                <p>
+                    Interested in kendama? Come learn all the basics and how to start your dama journey! We have workshop classes for beginner, intermediate, and advanced to help improve their game. Our instructors will be teaching technique, tricks, and the history of Dama to all our Wub’n’Dub fam. Stick around for our KenLive challenges and giveaways for a chance to win free dama swag too! (Kendama’s provided, just come sesh)
+                </p>
+
+                <div class="row text-center">
+                    <div class="col-12 col-md-6">
+                        <img src="/kendama-1.jpg">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="/kendama-2.jpg">
+                    </div>
+                </div>
             </div>
             <div if.bind="selectedTab === 'Crafts'">
-                Stuff about Crafts
+                Each day there will be materials for kandi making, rock painting, and bookmark decorating for anyone and everyone that stops by.
+
+                Daily “Craft Camp” sessions where materials, instruction, and assistance is provided by Wubadelic team members. There will be a limited number of spots for this 30 minute nature based craft session on both Friday and Saturday at noon. Make sure to sign up beforehand to participate in the Craft Camp sessions!
             </div>
             <div if.bind="selectedTab === 'Partners'">
-                Stuff about Partners
+                <h4 class="text-center">Sounds Partners</h4>
+                <div class="row text-center">
+                    <div class="col-12 col-md-6">
+                        <img src="/sound-1.jpg">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="/sound-2.jpg">
+                    </div>
+                </div>
+
+                <h4 class="mt-5 text-center">Visual Production</h4>
+                <div class="row text-center">
+                    <div class="col-12 col-md-6">
+                        <img src="/visual-1.jpg">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img src="/visual-2.jpg">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
