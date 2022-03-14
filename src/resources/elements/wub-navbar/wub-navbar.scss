@@ -21,3 +21,10 @@
     top: 42px !important;
   }
 }
+
+@media (min-width: 768px) {
+  .navbar ul li a {
+    font-size: 14px;
+    letter-spacing: 1.1px;
+  }
+}

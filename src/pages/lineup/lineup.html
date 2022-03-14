@@ -3,7 +3,7 @@
         <div class="header text-center">
             <img class="flier" src="/final-flier.jpg">
         </div>
-        <div class="container">
+        <div class="container py-5">
             <div class="row g-5">
                 <div class="col-12 col-md-6 text-center" repeat.for="producer of producers">
                     <h4>
@@ -12,8 +12,8 @@
                     <div class="description mb-2" if.bind="producer.description">
                         ${producer.description}
                     </div>
-                    <div class="link mb-2" repeat.for="link of producer.links">
-                        <a href.bind="link.url" class="blue">
+                    <div class="link mb-2" repeat.for="link of producer.links" if.bind="link.url">
+                        <a href.bind="link.url" class="blue" external>
                             ${link.name}
                         </a>
                     </div>

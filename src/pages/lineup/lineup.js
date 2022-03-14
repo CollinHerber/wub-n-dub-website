@@ -19,6 +19,78 @@ export class Lineup {
             ]
         },
         {
+            name: 'Run DMT',
+            location: 'NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/26C2HIRqDYjWa84z0WZVI4'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/vibeemissions'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/vibeemissions/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Vibe Emissions',
+            location: '',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/26C2HIRqDYjWa84z0WZVI4'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/vibeemissions'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://soundcloud.com/vibeemissions'
+                }
+            ]
+        },
+        {
+            name: 'Bawldy',
+            location: 'lafayette, LA',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'ttps://open.spotify.com/artist/51EaBfyIFowtvIXfWelwce'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/bawldyofficial'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/bawldyofficial/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Nasser Baker',
+            location: 'New Jersey',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/6hKT9qsYMOZTJHqxVkXagx'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/nasserbakerSound Cloud'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/nasserbaker/?hl=en'
+                }
+            ]
+        },
+        {
             name: 'Big City',
             location: 'Virginia Beach, VA',
             links: [
@@ -32,12 +104,138 @@ export class Lineup {
                 },
                 {
                     name: 'Instagram',
-                    url: 'https://instagram.com/wearebigcity?utm_medium=copy_link'
+                    url: 'https://instagram.com/sagzmuzic?utm_medium=copy_link'
                 }
             ]
         },
         {
-            name: 'Sagzz',
+            name: ' Daniels Jack',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/5hEExJgwx7NVIhwmPxsXcW'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/daniels-jack'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/danielsjackmusic/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Devious',
+            location: 'Roanoke, VA',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/6XrObPiwBt4WgVzOaYWPhi'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/deviousmusik'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/deviousmusik/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Diskull',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/0UDh4IMs4J12Egm0pKjlBi'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/diskull'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/diskullofficial/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Domii',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/7mvNMKxHsBMO5YwDnQIhcS'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/djdomii'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/ariel_domii/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Elderbass',
+            location: 'Los Angles, CA',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'ttps://open.spotify.com/artist/282rYedOk9KV25lJ3HRSfR?si=5LR9sBRQRZy0ejitAnTlCQ'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/elderbass?utm_source=clipboard&utm_'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'ttps://www.instagram.com/elderbass/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Emorfik',
+            location: 'Syracuse, NY',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/34bGTqa9HJUnf14IOHt6pc?si=3QkaLN9BSamhfEp-m-FTOg'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.app.goo.gl/TvGZ9rRass2jJsaH6'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://instagram.com/emorfik?utm_medium=copy_link'
+                }
+            ]
+        },
+        {
+            name: 'Kirby Bright',
+            location: 'Asheville, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/1Qz3ShKDxvGAFzH51TEl4o?si=BXXwGbrdQiCJQQkgsm4ccw'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.app.goo.gl/b3RzvT2DsdBSYHPBA'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://soundcloud.app.goo.gl/b3RzvT2DsdBSYHPBA'
+                }
+            ]
+        },
+        {
+            name: 'Sagz',
             location: 'Chicago, IL',
             links: [
                 {
@@ -55,41 +253,121 @@ export class Lineup {
             ]
         },
         {
-            name: 'Usaybflow',
+            name: 'Ujuu',
+            location: 'Indianapolis, IN',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/1cW9gpziZn8lu0hdZkfUnn'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/ujuumusic'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/ujuumedia/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Ryns',
+            location: 'Indianapolis, IN',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/5taiYswoYPRCDhfW1uZAtX?si=nldRpBtyQwqxUbrSGuuQJA&nd=1'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/rynsmusic'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/ryns_music/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'USAYBFLOW',
             location: 'Toronto, ON',
             links: [
                 {
                     name: 'Spotify',
-                    url: 'https://open.spotify.com/artist/4lZyQiNEwbXNpy5WBG8P9i?si=UcjnPjhgQimLgCZ9O9gf9g'
+                    url: 'https://open.spotify.com/artist/4lZyQiNEwbXNpy5WBG8P9i'
                 },
                 {
                     name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/rNsmGYX1frGZEn7a6'
+                    url: 'https://soundcloud.com/usaybflow'
                 },
                 {
                     name: 'Instagram',
-                    url: 'https://instagram.com/djusaybflow?utm_medium=copy_link'
+                    url: 'https://www.instagram.com/usaybflow/?hl=en'
                 }
             ]
         },
         {
             name: 'Actual Garbage',
-            location: '',
+            location: 'Richmond, VA',
             links: [
                 {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/4JxDwYTO6l7YSuY9LHQNWG'
+                },
+                {
                     name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/q9m2m1KuntD7prrF9'
+                    url: 'https://soundcloud.com/actualgarbagebops'
                 },
                 {
                     name: 'Instagram',
-                    url: 'https://instagram.com/actualgarbage.bops?utm_medium=copy_link'
+                    url: 'https://www.instagram.com/actualgarbage.bops/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Brook Legends',
+            location: 'Raleigh, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/0roYcKdfBGibJmVln0o5Dl'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/americanelchapo'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/brooklegends/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Chris Maze',
+            location: 'Pittsburgh, PA',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/chrismazehouse'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/chrismazehouse/?hl=en'
                 }
             ]
         },
         {
             name: 'Clutch Panda',
-            location: 'Myrtle, SC',
+            location: 'Myrtle Beach, SC',
             links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
                 {
                     name: 'Sound Cloud',
                     url: 'https://soundcloud.app.goo.gl/KTGMR92rGumGYax46'
@@ -101,9 +379,31 @@ export class Lineup {
             ]
         },
         {
+            name: 'Dev Tro',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/0GckGX45MJpaglsMNxwHxM'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://www.instagram.com/devtromusic/?hl=en'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/devtromusic/?hl=en'
+                }
+            ]
+        },
+        {
             name: 'Duplex',
             location: 'Raleigh, NC',
             links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
                 {
                     name: 'Sound Cloud',
                     url: 'https://soundcloud.app.goo.gl/7Q5EqV1VmxcQNpmf9'
@@ -133,24 +433,38 @@ export class Lineup {
             ]
         },
         {
-            name: 'Emorfik',
-            location: 'Syracuse, NY',
+            name: 'Empti',
+            location: 'Richmond, VA',
             links: [
                 {
                     name: 'Spotify',
-                    url: 'https://open.spotify.com/artist/34bGTqa9HJUnf14IOHt6pc?si=3QkaLN9BSamhfEp-m-FTOg'
+                    url: ''
                 },
                 {
                     name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/TvGZ9rRass2jJsaH6'
+                    url: 'https://soundcloud.com/emptidubs'
                 },
                 {
                     name: 'Instagram',
-                    url: 'https://instagram.com/emorfik?utm_medium=copy_link'
+                    url: 'https://www.instagram.com/emptidub/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Folklohr',
+            location: 'Los Angeles, CA',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/0GckGX45MJpaglsMNxwHxM'
                 },
                 {
-                    name: 'TikTok',
-                    url: 'https://vm.tiktok.com/TTPdhmFuC5/'
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/whothefolkareyou'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/whothefolklohr/?hl=en'
                 }
             ]
         },
@@ -158,6 +472,10 @@ export class Lineup {
             name: 'Froggy P',
             location: 'Wilmington, NC',
             links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
                 {
                     name: 'Sound Cloud',
                     url: 'https://soundcloud.app.goo.gl/2FGsCHBsemWokkZC9'
@@ -169,9 +487,13 @@ export class Lineup {
             ]
         },
         {
-            name: 'Hunnid trails',
+            name: 'Hunnid Trails',
             location: 'Greenville, NC',
             links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
                 {
                     name: 'Sound Cloud',
                     url: 'https://soundcloud.app.goo.gl/PYJzSdTo2YP2zP3bA'
@@ -179,24 +501,6 @@ export class Lineup {
                 {
                     name: 'Instagram',
                     url: 'https://instagram.com/hunnidtrails?utm_medium=copy_link'
-                }
-            ]
-        },
-        {
-            name: 'Inb4',
-            location: '',
-            links: [
-                {
-                    name: 'Spotify',
-                    url: 'https://open.spotify.com/artist/6DZaUmzoyU9PY3KE5wDNAL?si=9AiFZmQ1QGmXmyC92fqx3Q'
-                },
-                {
-                    name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/iyoTs74xz8T3a8Ec6'
-                },
-                {
-                    name: 'Instagram',
-                    url: 'https://instagram.com/inb4.spacii?utm_medium=copy_link'
                 }
             ]
         },
@@ -209,32 +513,36 @@ export class Lineup {
                     url: 'https://open.spotify.com/artist/01G5DkOdtzpimIyyznaSj3?si=fIg9MLj7TRKV6r81qRt38g'
                 },
                 {
+                    name: 'Sound Cloud',
+                    url: ''
+                },
+                {
                     name: 'Instagram',
                     url: 'https://instagram.com/officialkeel_?utm_medium=copy_link'
                 }
             ]
         },
         {
-            name: 'Kirby bright',
-            location: '',
+            name: 'Kold Drip',
+            location: 'Charlotte, NC',
             links: [
                 {
                     name: 'Spotify',
-                    url: 'https://open.spotify.com/artist/1Qz3ShKDxvGAFzH51TEl4o?si=BXXwGbrdQiCJQQkgsm4ccw'
+                    url: ''
                 },
                 {
                     name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/b3RzvT2DsdBSYHPBA'
+                    url: 'https://soundcloud.app.goo.gl/C2SRnxokKUa7YTM39'
                 },
                 {
                     name: 'Instagram',
-                    url: 'https://instagram.com/kirbybright_?utm_medium=copy_link'
+                    url: 'https://instagram.com/kolddrip_music?utm_medium=copy_link'
                 }
             ]
         },
         {
             name: 'Komadoze',
-            location: 'Long Island, NY',
+            location: 'Wilmington, NC',
             links: [
                 {
                     name: 'Spotify',
@@ -251,136 +559,240 @@ export class Lineup {
             ]
         },
         {
-            name: 'Kold Drip',
-            location: 'Charlotte, NC',
+            name: 'Krispee Biscuits',
+            location: 'Wilmington, NC',
             links: [
                 {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
                     name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/C2SRnxokKUa7YTM39'
+                    url: ''
                 },
                 {
                     name: 'Instagram',
-                    url: 'https://instagram.com/kolddrip_music?utm_medium=copy_link'
+                    url: 'https://www.instagram.com/krispee_biscuits/?hl=en'
                 }
             ]
+        },
+        {
+            name: 'Light Blue Lights',
+            location: 'Wilmington, NC',
+            links:
+                [
+                    {
+                        name: 'Spotify',
+                        url: ''
+                    },
+                    {
+                        name: 'Sound Cloud',
+                        url: ''
+                    },
+                    {
+                        name: 'Instagram',
+                        url: 'https://www.instagram.com/light.blue.lights/?hl=en'
+                    }
+                ]
+        },
+        {
+            name: 'Seemerc',
+            location: 'Charlotte, NC',
+            links:
+                [
+                    {
+                        name: 'Spotify',
+                        url: 'https://open.spotify.com/artist/476EVhvaE6zfLTpj6LmMzs'
+                    },
+                    {
+                        name: 'Sound Cloud',
+                        url: 'https://soundcloud.com/seemerc'
+                    },
+                    {
+                        name: 'Instagram',
+                        url: 'https://www.instagram.com/seemerc/?hl=en'
+                    }
+                ]
         },
         {
             name: 'Spenny',
             location: 'Denver, CO',
-            links: [
-                {
-                    name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/badU5DVKauwrkR4U6'
-                },
-                {
-                    name: 'Instagram',
-                    url: 'https://instagram.com/spennydub?utm_medium=copy_link'
-                }
-            ]
+            links:
+                [
+                    {
+                        name: 'Spotify',
+                        url: ''
+                    },
+                    {
+                        name: 'Sound Cloud',
+                        url: 'https://soundcloud.com/spennydub'
+                    },
+                    {
+                        name: 'Instagram',
+                        url: 'https://www.instagram.com/spennydub/?hl=en'
+                    }
+                ]
         },
         {
             name: 'Alias Teel',
-            location: 'Denver, CO',
-            links: [
-                {
-                    name: 'Spotify',
-                    url: 'https://open.spotify.com/artist/5sUgyCICbT43F2MInTyT1U?si=JlX2c1iWTomyRpv0ed5FyQ'
-                },
-                {
-                    name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/eATaHhKAPtKaS7eN8'
-                },
-                {
-                    name: 'Instagram',
-                    url: 'https://instagram.com/alias.teel?utm_medium=copy_link'
-                }
-            ]
+            location:
+                'Denver, CO',
+            links:
+                [
+                    {
+                        name: 'Spotify',
+                        url: ''
+                    },
+                    {
+                        name: 'Sound Cloud',
+                        url: 'https://soundcloud.com/search?q=alias%20teel'
+                    },
+                    {
+                        name: 'Instagram',
+                        url: 'https://www.instagram.com/alias.teel/?hl=en'
+                    }
+                ]
         },
         {
             name: 'Symmetry',
-            location: 'Boone, NC',
-            links: [
-                {
-                    name: 'Spotify',
-                    url: 'https://open.spotify.com/artist/5u6c5OEzZb0lP6CoZHLZH2?si=-vhXoBZpQnaPZMTHW-eAwg'
-                },
-                {
-                    name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/TsAEgSSgE63anArk6'
-                },
-                {
-                    name: 'Instagram',
-                    url: 'https://instagram.com/symmetry_music_?utm_medium=copy_link'
-                }
-            ]
+            location:
+                'Boone, NC',
+            links:
+                [
+                    {
+                        name: 'Spotify',
+                        url: ''
+                    },
+                    {
+                        name: 'Sound Cloud',
+                        url: 'https://soundcloud.com/symmetry-music'
+                    },
+                    {
+                        name: 'Instagram',
+                        url: 'https://www.instagram.com/symmetry_music_/?hl=en'
+                    }
+                ]
         },
         {
             name: 'Tylr',
-            location: 'Greenville, NC',
-            links: [
-                {
-                    name: 'Spotify',
-                    url: 'https://open.spotify.com/artist/5bCQltwsRpSqJjsiKUWNZN?si=A3zZ7M9jTAmgUe-GU6qndw'
-                },
-                {
-                    name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/3BbAzeSWMPc433qn7'
-                },
-                {
-                    name: 'Instagram',
-                    url: 'https://instagram.com/musicbytylr?utm_medium=copy_link'
-                }
-            ]
+            location:
+                'Raleigh, NC',
+            links:
+                [
+                    {
+                        name: 'Spotify',
+                        url: ''
+                    },
+                    {
+                        name: 'Sound Cloud',
+                        url: 'https://soundcloud.com/musicbytylr'
+                    },
+                    {
+                        name: 'Instagram',
+                        url: 'https://www.instagram.com/musicbytylr/?hl=en'
+                    }
+                ]
         },
         {
             name: 'Tymellord',
-            location: '',
-            links: [
-                {
-                    name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/QY6HiVLRHRMoheP67'
-                },
-                {
-                    name: 'Instagram',
-                    url: 'https://instagram.com/tymellord?utm_medium=copy_link'
-                }
-            ]
+            location:
+                'Greenville, NC',
+            links:
+                [
+                    {
+                        name: 'Spotify',
+                        url: ''
+                    },
+                    {
+                        name: 'Sound Cloud',
+                        url: 'https://soundcloud.com/tymellord'
+                    },
+                    {
+                        name: 'Instagram',
+                        url: 'https://www.instagram.com/tymellord/?hl=en'
+                    }
+                ]
         },
         {
             name: 'Warzone',
-            location: 'Raleigh, NC',
-            links: [
-                {
-                    name: 'Spotify',
-                    url: 'https://open.spotify.com/artist/49OFFYVitBCVgiD1mF0s9Q?si=t_qeiBH6QWOGcwm0SIpmTg'
-                },
-                {
-                    name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/EMpZ8zBXEQkkb7tC6'
-                },
-                {
-                    name: 'Instagram',
-                    url: 'https://instagram.com/itswarzonemusic?utm_medium=copy_link'
-                }
-            ]
+            location:
+                'Raleigh, NC',
+            links:
+                [
+                    {
+                        name: 'Spotify',
+                        url: ''
+                    },
+                    {
+                        name: 'Sound Cloud',
+                        url: 'https://soundcloud.com/itswarzonemusic'
+                    },
+                    {
+                        name: 'Instagram',
+                        url: 'https://www.instagram.com/itswarzonemusic/?hl=en'
+                    }
+                ]
+        },
+        {
+            name: 'Wiley',
+            location:
+                'Indianapolis, IN',
+            links:
+                [
+                    {
+                        name: 'Spotify',
+                        url: 'https://open.spotify.com/artist/0AozPFs98kDNb4wBlQItiN'
+                    },
+                    {
+                        name: 'Sound Cloud',
+                        url: 'https://soundcloud.com/wiley_music'
+                    },
+                    {
+                        name: 'Instagram',
+                        url: 'https://www.instagram.com/wileymusic_/?hl=en'
+                    }
+                ]
+        },
+        {
+            name: 'yum.yum',
+            location:
+                'Indianapolis, IN',
+            links:
+                [
+                    {
+                        name: 'Spotify',
+                        url: 'https://open.spotify.com/artist/2aHjOKIzDMmOs26z2BqxEl'
+                    },
+                    {
+                        name: 'Sound Cloud',
+                        url: 'https://soundcloud.com/imyumyum'
+                    },
+                    {
+                        name: 'Instagram',
+                        url: 'https://www.instagram.com/yum.yum.official/?hl=en'
+                    }
+                ]
         },
         {
             name: 'Xtals',
-            location: 'Raleigh, NC',
-            links: [
-                {
-                    name: 'Spotify',
-                    url: 'https://open.spotify.com/artist/6JJaTWdGClSpkA7wTweL2n?si=s1d1ThYTRT6iYPemVCuiaw'
-                },
-                {
-                    name: 'Sound Cloud',
-                    url: 'https://soundcloud.app.goo.gl/v38qxGeFGnSenxGh9'
-                },
-                {
-                    name: 'Instagram',
-                    url: 'https://instagram.com/xtalsmusic?utm_medium=copy_link'
-                }
-            ]
+            location:
+                'Raleigh, NC',
+            links:
+                [
+                    {
+                        name: 'Spotify',
+                        url: 'https://open.spotify.com/artist/6JJaTWdGClSpkA7wTweL2n'
+                    },
+                    {
+                        name: 'Sound Cloud',
+                        url: 'https://soundcloud.com/xtalsmusic'
+                    },
+                    {
+                        name: 'Instagram',
+                        url: 'https://www.instagram.com/xtalsmusic/?hl=en'
+                    }
+                ]
         }
+        ,
     ]
 }
