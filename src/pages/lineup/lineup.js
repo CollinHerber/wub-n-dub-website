@@ -793,6 +793,775 @@ export class Lineup {
                     }
                 ]
         }
-        ,
-    ]
+    ];
+
+    silentDiscoArtists = [
+        {
+            name: '2 The Artist',
+            location: 'Raleigh, NC',
+            links: [
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/2theartist/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Beebo',
+            location: 'Raleigh, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: ''
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/beebo_music/'
+                }
+            ]
+        },
+        {
+            name: 'Brewtal',
+            location: 'Wilmington, NC',
+            links: [
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/djbrewtal/'
+                }
+            ]
+        },
+        {
+            name: 'Cheap Thrills',
+            location: 'Wilmington, NC',
+            links: [
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/cheapthri11s'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/yotreybrown/'
+                }
+            ]
+        },
+        {
+            name: 'Chef Pandah',
+            location: '',
+            links: [
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/chef-pandah'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/chef_pandah/'
+                }
+            ]
+        },
+        {
+            name: 'Chris Crisp',
+            location: 'Raleigh, NC',
+            links: [
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/chris_crisp?ref=clipboard&p=a&c=1&si=68d786f8864442aa81771a532e2a944b&utm_campaign=social_sharing&utm_medium=text&utm_source=clipboard'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/chris__crisp/'
+                }
+            ]
+        },
+        {
+            name: 'ChoppaStix',
+            location: 'Spartanburg, SC',
+            links: [
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/choppastix_sc/'
+                }
+            ]
+        },
+        {
+            name: 'Commee',
+            location: 'Outer Banks, NC',
+            links: [
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/commee/'
+                }
+            ]
+        },
+        {
+            name: 'D.V.D.',
+            location: 'Maryland',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/djdvdofficial'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/djdvdofficial/'
+                }
+            ]
+        },
+        {
+            name: 'Dj Jayfade',
+            location: 'Myrtle Beach, SC',
+            links: [
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/jess-dutchie'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/dj_jayfade/'
+                }
+            ]
+        },
+        {
+            name: 'DJ YK',
+            location: 'Charleston, SC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/william-deane'
+                },
+                {
+                    name: 'Instagram',
+                    url: ''
+                }
+            ]
+        },
+        {
+            name: 'Drew Vickery',
+            location: 'Wilmington, NC',
+            links: [
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/drewvickery/'
+                }
+            ]
+        },
+        {
+            name: 'Drizzy',
+            location: 'Joshua Tree, CA',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/user-640361543'
+                },
+                {
+                    name: 'Instagram',
+                    url: ''
+                }
+            ]
+        },
+        {
+            name: 'Emonix',
+            location: 'Las Vegas, NV',
+            links: [
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/emonixmusic/e2022?ref=clipboard&p=i&c=1&si=8EB9AF234A0A46BFA3598B6A5350E529&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/emonixmusic/'
+                }
+            ]
+        },
+        {
+            name: 'EvBot',
+            location: 'Madison, WI',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/evbotog'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/evbotog/'
+                }
+            ]
+        },
+        {
+            name: 'Htbx',
+            location: 'Charleton, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/djhtbx'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/djhtbx/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Jefe',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/6rTs7weJqf3g4EHnX8QW7d?si=E1uaMH3sSye2wMK538xFOg&dl_branch=1&nd=1'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/theofficialjefe?ref=clipboard&p=i&c=1&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/jefelaforza/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Jungle Joe',
+            location: 'Phoneix, AZ',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/joseph-rotstein?ref=clipboard&p=i&c=1'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/junglejoe.dj/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Jutty',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: ''
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/just_jutty/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Karmic Phoneix',
+            location: 'Wilmington, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/phoenixbass555'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/karmicphoenixofficial/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Kinetick',
+            location: 'Myrtle Beach, SC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: ''
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/djkinetick/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Squidnee',
+            location: 'Savannah, GA',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/squidnee710'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/squidneeofficial/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'King Smo',
+            location: 'Baltimore, MD',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/king_smo'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/king_smo_/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Konglo',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/konglo'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/_konglo_/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Mr. Jupiter',
+            location: 'Raleigh, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/lewis-cinco-ocho-crumsey'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/mrjupitermusicofficial/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Mvmtone',
+            location: 'Raleigh, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/antonio-geter'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/mvmtone_dmvofficial/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'M3rmade',
+            location: 'Columbia, SC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/m3rmademuzic'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/m3rmade.muzic/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Nicolette',
+            location: 'Raleigh, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: ''
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/dj.nicolette/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Noway',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: ''
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/nowaymusick/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Pashmina Pete',
+            location: 'SC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/pashminapete'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/pashminapete/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Phist',
+            location: 'Raleigh, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/phistmusic'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/phistmusic/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Pixel Dust',
+            location: 'Wilmington, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: 'https://open.spotify.com/artist/3t5OabCYY59q49RUvnl8zm'
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/pixeldustmusic'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/pixeldustmusic/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Plex',
+            location: 'NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: ''
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/plexdubstep/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Pleyad',
+            location: 'Myrtle Beach, SC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: ''
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/pleyad_/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Poetic',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: ''
+                },
+                {
+                    name: 'Instagram',
+                    url: ''
+                }
+            ]
+        },
+        {
+            name: 'Redder',
+            location: 'Syracuse, NY',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: ''
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/official_redder/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Saligia',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/saligiadub'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/saligiadub/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Scar',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: ''
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/adamscarmccoy/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Sfynx',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/sfynxbeats'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/sfynx.exe/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Skwurm',
+            location: 'Greenville, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/skwurm'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/skwurm/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Space Spice',
+            location: 'Boca Raton, FL',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/justina-englese'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/spacespiceofficial/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Swamp Mane',
+            location: 'Baltimore, MD',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/swampmanedubs'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/swampmane/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Trvsh',
+            location: 'Charleston, SC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/timothy-firestone'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/trvsh_official/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'SOSS',
+            location: 'Richmond, VA',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/soundsofthesoss'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/soundsofthesoss/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Willie Arnold',
+            location: 'Charlotte, NC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/djwilliearnold'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/djwilliearnold/?hl=en'
+                }
+            ]
+        },
+        {
+            name: 'Zeni',
+            location: 'Myrtle Beach, SC',
+            links: [
+                {
+                    name: 'Spotify',
+                    url: ''
+                },
+                {
+                    name: 'Sound Cloud',
+                    url: 'https://soundcloud.com/officialzeni'
+                },
+                {
+                    name: 'Instagram',
+                    url: 'https://www.instagram.com/zeni.music/?hl=en'
+                }
+            ]
+        }];
 }

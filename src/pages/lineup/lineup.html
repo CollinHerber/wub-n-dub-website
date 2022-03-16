@@ -19,6 +19,25 @@
                     </div>
                 </div>
             </div>
+
+            <h3 class="text-center my-5">
+                Silent Disco Artists
+            </h3>
+            <div class="row g-5">
+                <div class="col-12 col-md-6 text-center" repeat.for="producer of silentDiscoArtists">
+                    <h4>
+                        ${producer.name} <span if.bind="producer.location">(${producer.location})</span>
+                    </h4>
+                    <div class="description mb-2" if.bind="producer.description">
+                        ${producer.description}
+                    </div>
+                    <div class="link mb-2" repeat.for="link of producer.links" if.bind="link.url">
+                        <a href.bind="link.url" class="blue" external>
+                            ${link.name}
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </template>
